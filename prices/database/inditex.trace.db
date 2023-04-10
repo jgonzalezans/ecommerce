@@ -1,0 +1,19 @@
+2023-04-09 02:36:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRICES" not found (this database is empty); SQL statement:
+select price0_.id as id1_0_, price0_.brand_id as brand_id2_0_, price0_.currency as currency3_0_, price0_.end_date as end_date4_0_, price0_.price as price5_0_, price0_.price_list as price_li6_0_, price0_.priority as priority7_0_, price0_.product_id as product_8_0_, price0_.start_date as start_da9_0_ from prices price0_ where price0_.brand_id=? and price0_.product_id=? [42104-214]
+2023-04-09 02:39:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRICES" not found (this database is empty); SQL statement:
+select price0_.id as id1_0_, price0_.brand_id as brand_id2_0_, price0_.currency as currency3_0_, price0_.end_date as end_date4_0_, price0_.price as price5_0_, price0_.price_list as price_li6_0_, price0_.priority as priority7_0_, price0_.product_id as product_8_0_, price0_.start_date as start_da9_0_ from prices price0_ where price0_.brand_id=? and price0_.product_id=? [42104-214]
+2023-04-09 02:47:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRICES" not found (this database is empty); SQL statement:
+select price0_.id as id1_0_, price0_.brand_id as brand_id2_0_, price0_.currency as currency3_0_, price0_.end_date as end_date4_0_, price0_.price as price5_0_, price0_.price_list as price_li6_0_, price0_.priority as priority7_0_, price0_.product_id as product_8_0_, price0_.start_date as start_da9_0_ from prices price0_ where price0_.brand_id=? and price0_.product_id=? [42104-214]
+2023-04-09 02:55:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRICES" not found (this database is empty); SQL statement:
+select price0_.id as id1_0_, price0_.brand_id as brand_id2_0_, price0_.currency as currency3_0_, price0_.end_date as end_date4_0_, price0_.price as price5_0_, price0_.price_list as price_li6_0_, price0_.priority as priority7_0_, price0_.product_id as product_8_0_, price0_.start_date as start_da9_0_ from prices price0_ where price0_.brand_id=? and price0_.product_id=? [42104-214]
+2023-04-09 03:06:25 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRICES" not found (this database is empty); SQL statement:
+SELECT * FROM prices [42104-214]
+2023-04-09 03:18:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "PRICES" ya existe
+Table "PRICES" already exists; SQL statement:
+CREATE TABLE PRICES ( ID INT AUTO_INCREMENT PRIMARY KEY, PRODUCT_ID INT NOT NULL, BRAND_ID INT NOT NULL, PRICE_LIST INT NOT NULL, START_DATE TIMESTAMP NOT NULL, END_DATE TIMESTAMP NOT NULL, PRIORITY INT NOT NULL, PRICE DECIMAL(8,2) NOT NULL, CURRENCY VARCHAR(3) NOT NULL ) [42101-214]
