@@ -7,7 +7,7 @@ Para poder ejecutar la API, es necesario tener instalado Java 11 y Maven. A cont
 Descargar el código fuente del proyecto desde GitHub.
 Desde la línea de comandos, situarse en la carpeta raíz del proyecto.
 Ejecutar el comando `mvn clean install` para compilar el proyecto y generar el archivo JAR.
-Ejecutar el comando `java -jar target/prices.jar` para lanzar la aplicación.
+Ejecutar el comando `java -jar target/prices-0.0.1-SNAPSHOT` para lanzar la aplicación.
 
 # Uso
 Una vez que la aplicación esté en ejecución, se puede acceder a la API a través de la URL http://localhost:8080/prices. A continuación, se describen los parámetros necesarios para hacer consultas a la API:
