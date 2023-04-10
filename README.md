@@ -17,9 +17,6 @@ Una vez que la aplicación esté en ejecución, se puede acceder a la API a trav
 3. applicationDate: Fecha y hora de aplicación del precio, en formato ISO-8601.
 
 Para realizar una consulta a la API, se puede hacer una petición GET a la URL correspondiente, proporcionando los parámetros necesarios. Por ejemplo:
-
-bash
-Copy code
 http://localhost:8080/prices/35455/1?applicationDate=2020-06-14T10:00:00
 Esta petición devolverá un objeto JSON con la información del precio correspondiente a los parámetros proporcionados.
 
