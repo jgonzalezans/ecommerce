@@ -14,7 +14,7 @@ Una vez que la aplicación esté en ejecución, se puede acceder a la API a trav
 
 * productId: ID del producto para el que se desea consultar el precio.
 * brandId: ID de la marca a la que pertenece el producto.
-*- applicationDate: Fecha y hora de aplicación del precio, en formato ISO-8601.
+* applicationDate: Fecha y hora de aplicación del precio, en formato ISO-8601.
 
 Para realizar una consulta a la API, se puede hacer una petición GET a la URL correspondiente, proporcionando los parámetros necesarios. Por ejemplo:
 http://localhost:8080/prices/35455/1?applicationDate=2020-06-14T10:00:00
