@@ -32,7 +32,7 @@ El proyecto está organizado en los siguientes paquetes:
 - com.inditex.service: Contiene las implementaciones de los servicios utilizados para procesar las peticiones a la API.
 
 # Pruebas
-Se han implementado pruebas unitarias y de integración para comprobar el correcto funcionamiento de la aplicación. Estas pruebas pueden ser ejecutadas mediante el comando mvn test desde la carpeta raíz del proyecto.
+Se han implementado pruebas unitarias y de integración para comprobar el correcto funcionamiento de la aplicación. Estas pruebas pueden ser ejecutadas mediante el comando `mvn test` desde la carpeta raíz del proyecto.
 
 # Autor
 Este proyecto ha sido desarrollado por José González Anasagasti.
