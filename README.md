@@ -1,9 +1,5 @@
-# inditex
-Repositorio para proyectos de Inditex
-
-
 # Inditex Prices API
-Este proyecto contiene una API REST para la consulta del precio de un producto de Inditex en función de la fecha de aplicación y las tiendas disponibles.
+Este repositorio contiene un proyecto que consiste en un API REST para la consulta del precio de un producto de Inditex en función de la fecha de aplicación para una cadena determinada
 
 # Instalación
 Para poder ejecutar la API, es necesario tener instalado Java 11 y Maven. A continuación, se detallan los pasos necesarios para descargar el proyecto y ejecutar la aplicación:
