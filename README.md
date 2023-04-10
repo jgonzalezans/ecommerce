@@ -20,6 +20,8 @@ Para realizar una consulta a la API, se puede hacer una petición GET a la URL c
 http://localhost:8080/prices/35455/1?applicationDate=2020-06-14T10:00:00
 Esta petición devolverá un objeto JSON con la información del precio correspondiente a los parámetros proporcionados.
 
+Puede consultarse la base de datos (h2) cuando la aplicación esté levantada en el siguiente enlace : http://localhost:8080/h2-console/login.jsp?jsessionid=bb7672306c0d1f1a544693b73c5c06e6
+
 # Estructura del proyecto
 El proyecto está organizado en los siguientes paquetes:
 
