@@ -1,4 +1,4 @@
-# Inditex Prices API
+# Prices API
 Este repositorio contiene un proyecto que consiste en un API REST para la consulta del precio de un producto de Inditex en función de la fecha de aplicación para una cadena determinada
 
 # Instalación
