@@ -12,9 +12,9 @@ Ejecutar el comando java -jar target/prices.jar para lanzar la aplicación.
 # Uso
 Una vez que la aplicación esté en ejecución, se puede acceder a la API a través de la URL http://localhost:8080/prices. A continuación, se describen los parámetros necesarios para hacer consultas a la API:
 
-productId: ID del producto para el que se desea consultar el precio.
-brandId: ID de la marca a la que pertenece el producto.
-applicationDate: Fecha y hora de aplicación del precio, en formato ISO-8601.
+1. productId: ID del producto para el que se desea consultar el precio.
+2. brandId: ID de la marca a la que pertenece el producto.
+3. applicationDate: Fecha y hora de aplicación del precio, en formato ISO-8601.
 
 Para realizar una consulta a la API, se puede hacer una petición GET a la URL correspondiente, proporcionando los parámetros necesarios. Por ejemplo:
 
