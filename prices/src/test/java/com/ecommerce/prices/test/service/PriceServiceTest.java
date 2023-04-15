@@ -1,4 +1,4 @@
-package com.inditex.service;
+package com.ecommerce.prices.test.service;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
@@ -13,11 +13,12 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.inditex.exception.PriceNotFoundException;
-import com.inditex.model.Price;
-import com.inditex.model.PriceRequest;
-import com.inditex.model.PriceRequestFactory;
-import com.inditex.repository.PriceRepository;
+import com.ecommerce.prices.exception.PriceNotFoundException;
+import com.ecommerce.prices.model.Price;
+import com.ecommerce.prices.model.PriceRequest;
+import com.ecommerce.prices.model.PriceRequestFactory;
+import com.ecommerce.prices.repository.PriceRepository;
+import com.ecommerce.prices.service.PriceServiceImpl;
 
 @SpringBootTest
 class PriceServiceTest {

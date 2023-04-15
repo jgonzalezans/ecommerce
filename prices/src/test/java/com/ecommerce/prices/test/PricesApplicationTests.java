@@ -1,4 +1,4 @@
-package com.inditex;
+package com.ecommerce.prices.test;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

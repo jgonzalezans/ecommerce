@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.inditex.api;
+package com.ecommerce.prices.api;
 
 import java.time.LocalDateTime;
 
@@ -14,13 +14,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.inditex.exception.PriceNotFoundException;
-import com.inditex.mapper.PriceMapper;
-import com.inditex.model.Price;
-import com.inditex.model.PriceDTO;
-import com.inditex.model.PriceRequest;
-import com.inditex.model.PriceRequestFactory;
-import com.inditex.service.PriceService;
+import com.ecommerce.prices.exception.PriceNotFoundException;
+import com.ecommerce.prices.mapper.PriceMapper;
+import com.ecommerce.prices.model.Price;
+import com.ecommerce.prices.model.PriceDTO;
+import com.ecommerce.prices.model.PriceRequest;
+import com.ecommerce.prices.model.PriceRequestFactory;
+import com.ecommerce.prices.service.PriceService;
 
 /**
  * @author jgonzalezans

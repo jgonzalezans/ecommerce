@@ -1,4 +1,4 @@
-package com.inditex.model;
+package com.ecommerce.prices.model;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

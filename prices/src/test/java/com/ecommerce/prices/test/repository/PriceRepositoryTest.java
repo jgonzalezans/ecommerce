@@ -1,4 +1,4 @@
-package com.inditex.repository;
+package com.ecommerce.prices.test.repository;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -12,8 +12,9 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.context.annotation.Import;
 import org.springframework.test.context.jdbc.Sql;
 
-import com.inditex.config.TestConfig;
-import com.inditex.model.Price;
+import com.ecommerce.prices.model.Price;
+import com.ecommerce.prices.repository.PriceRepository;
+import com.ecommerce.prices.test.config.TestConfig;
 
 @Import(TestConfig.class)
 @DataJpaTest

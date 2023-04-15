@@ -1,12 +1,12 @@
-package com.inditex.mapper;
+package com.ecommerce.prices.mapper;
 
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
 
-import com.inditex.model.Price;
-import com.inditex.model.PriceDTO;
+import com.ecommerce.prices.model.Price;
+import com.ecommerce.prices.model.PriceDTO;
 
 @Mapper(componentModel = "spring")
 public interface PriceMapper {

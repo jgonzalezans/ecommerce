@@ -1,4 +1,4 @@
-package com.inditex.exception;
+package com.ecommerce.prices.exception;
 
 import lombok.NoArgsConstructor;
 

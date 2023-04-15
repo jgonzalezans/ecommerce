@@ -1,4 +1,4 @@
-package com.inditex.service;
+package com.ecommerce.prices.service;
 
 import java.time.LocalDateTime;
 import java.util.Comparator;
@@ -7,10 +7,10 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.inditex.exception.PriceNotFoundException;
-import com.inditex.model.Price;
-import com.inditex.model.PriceRequest;
-import com.inditex.repository.PriceRepository;
+import com.ecommerce.prices.exception.PriceNotFoundException;
+import com.ecommerce.prices.model.Price;
+import com.ecommerce.prices.model.PriceRequest;
+import com.ecommerce.prices.repository.PriceRepository;
 
 @Service
 public class PriceServiceImpl implements PriceService {
