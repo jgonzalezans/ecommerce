@@ -32,7 +32,7 @@ public class PriceServiceImpl implements PriceService {
 		// Ordenamos los precios filtrados por prioridad (mayor a menor) 
 		// y devolvemos el primero, o una excepcion en caso de no encontrar ninguno
 		return prices.stream()
-	            .filter(p -> requestDate.isAfter(p.getStartDate()) && requestDate.isBefore(p.getEndDate()))
+	            .filter(p -> !requestDate.isBefore(p.getStartDate()) && !requestDate.isAfter(p.getEndDate()))
 	            .sorted(Comparator.comparingInt(Price::getPriority).reversed())
 	            .findFirst()
 	            .orElseThrow(PriceNotFoundException::new);
